@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b21c16802c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bg-color">
+
+
+    <div class="container" id="sectiondetail">
+    <div class="row">
+        <div class="col-12">
+                    <!-- //navbar  -->
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar ">
+                        <a class="navbar-brand navbar-style" href="#">GIRL & THE GOAT</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-center navbar-style" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center navbar-style" href="#" onclick="display('section_Kerala')">Private dining</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center navbar-style" href="#about_section">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center navbar-style" href="#" onclick="display('section_menu')">menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center navbar-style" href="#contact_section">contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-center navbar-style" href="#reservation_section">reserve</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </nav>
+                    <!-- //image  -->
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="10000">
+                                <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690389284/6461df65ba1f3b35e501230e_GG-Chicago-02-p-2000_tnypfg.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690389449/6461df657da47160c60d5101_GG-Chicago-03-p-2000_akaefc.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690389428/6461df656f0fc1e7307c5eaa_GG-Chicago-01-p-2000_kluklr.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+                <!-- //address -->
+                <div id="contact_section" class="col-12 mb-3 col-md-4">
+                    <div class="address-style">
+                        <h3 class="address-heading-style">address</h3>
+                        <p>809 W.Randolph <br /> Chicago, IL</p>
+                        <div>
+                            <button class="address-direction-style">direction</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-3 col-md-4">
+                    <div class="address-style">
+                        <h3 class="address-heading-style">hours</h3>
+                        <p>Sunday-Thursday <br /> 4:30-10pm</p>
+                        <p>Friday & Saturday <br /> 4:30-11pm </p>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-3 col-md-4">
+                    <div class="address-style">
+                        <h3 class="address-heading-style">contact</h3>
+                        <p class="contact-para-style">312-492-6263</p>
+                        <p class="contact-para-style"> info@girlandthegoat.com</p>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-5">
+                    <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690391271/photo-1514933651103-005eec06c04b_w7leiz.jpg" width="100%" alt="" />
+                </div>
+
+                <div class="container" id="about_section">
+                    <div class="row">
+                        <div class="col-8 mb-3 col-md-4">
+                            <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690391396/6461e383aaf08806afcdd047_GG-Chicago-06-p-500_zxktex.jpg" width="100%" alt="" />
+                        </div>
+                        <div class="col-4 mb-3 col-md-2">
+                            <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690391411/6461e2cf58e0282da157ded0_GG-Chicago-05-p-500_likh5z.jpg" width="98%" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="girl-style">
+                                <h1>GIRL & THE GOAT CHICAGO</h1>
+                                <p>As one of the first restaurants on Chicago’s famed Restaurant Row in the West Loop, Stephanie Izard’s Girl & the Goat began in 2010 with a goal of serving bold, global flavors to our local community (and visitors!). Since then, our desire to treat guests like family has remained the same (as have our Green Beans) – but our seasonal flavors, cocktails, wine and locally-rooted beer are ever-changing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //reservation -->
+
+                <div id="reservation_section" class="col-12 pt-3 ">
+                    <div class="bg-img-login d-flex flex-column justify-content-center text-center">
+                        <div class="">
+                            <div>
+                                <h1 class="reservation-heading-style"> make a reservation</h1>
+                                <form>
+                                    <input class="date-style1" type="date" name="" id="date" value="" /> <br />
+                                    <input class="time-style1" type="time" name="" id="time" value="" /> <br />
+                                    <input class="count-style1" type="number" name="" id="number" value="" placeholder="2 people" /> <br>
+                                    <input type="submit" class="find-button-style1" onclick="test()" >
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="text-center">
+                        <h1 class="happening-heading-style">happenings</h1>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 ">
+                            <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690394978/646282fb380e5ecaac089222_Girl-goat-outside-p-1080_la4izn.png" width="100%" alt="" />
+                        </div>
+
+                        <div class="col-12 col-md-6 ">
+                            <div class="patio-heading-style">
+                                <h1>patio dining</h1>
+                                <p>Whether you're looking to catch up with friends, enjoy a romantic dinner for two, or simply bask in the sun, our patio dining is the perfect spot to do it all.</p>
+                                <button class="address-direction-style mb-5 mt-2" type="submit">reserve</button>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6 d-md-none">
+                            <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690395540/64627e100df968af7562ffdb_Girl-Goat-NA-Cocktail-p-1080_cwytbd.png" width="100%" alt="" />
+                        </div>
+
+                        <div class="col-12 col-md-6 ">
+                            <div class="patio-heading-style">
+                                <h1>meet Spicy Boy</h1>
+                                <p>Looking for a new non-alcoholic drink that's anything but boring? Say hello to our Spicy Boy! With a unique blend of tarragon, pomegranate, jalapeño, ginger, and lime, this drink packs a punch of flavor that's sure to delight your taste buds, whether you're looking for booze or not.</p>
+                                <button class="address-direction-style mb-5 mt-2" type="submit">reserve</button>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-6 d-none d-md-block">
+                            <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690395540/64627e100df968af7562ffdb_Girl-Goat-NA-Cocktail-p-1080_cwytbd.png" width="100%" alt="" />
+                        </div>
+
+
+                        <div class="col-12 mt-5">
+                            <div class="patio-heading-style">
+                                <h1>join the herd!</h1>
+                                <p>Join our mailing list and keep up with all the exciting things.</p>
+                                <button class="address-direction-style mb-5 mt-2" type="submit">reserve</button>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 address-style mb-5">
+                            <h1>Bring Chef Stephanie Izard’s bold, restaurant flavors home with <span class="goat-style">This Little Goat!</span></h1>
+                        </div>
+
+                        <div class="col-12 address-style text-center mb-3 col-md-2">
+                            <h3>GIRL & THE GOAT</h3>
+                        </div>
+
+                        <div class="col-12 address-style text-center mb-3 col-md-7 ">
+                            <p>website accessibility</p>
+                            <p>site map</p>
+                            <p>join our team</p>
+                            <p>press inquiries</p>
+                        </div>
+
+
+                        <div class="col-12 text-center col-md-2">
+                            <i class="fa-brands fa-facebook fa-beat facebook-img-style"></i>
+                            <i class="fa-brands fa-instagram fa-beat facebook-img-style"></i>
+                        </div>
+
+                        <div class="col-12 address-style">
+                            <p> Visit our sister restaurants Cabra, Duck Duck Goat, and Little Goat Diner</p>
+                        </div>
+
+                        <div class="col-12 address-style">
+                            <p>&copy; 2023 Boka Restaurant Group, LLC. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+
+
+    </div>
+    </div>
+    </div>
+    <!-- //private dinning section -->
+    <div id="section_Kerala">
+        <div class="container-fluit">
+            <div class="row">
+
+                    
+            
+                <div class="col-12 text-center">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
+                        <a class="navbar-brand navbar-style" href="#">GIRL & THE GOAT</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-center navbar-style" onclick="display('sectiondetail')" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <
+    
+    
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="bg-image-privatedring">
+                        <div>
+                            <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690476074/a9cdbf99-9b69-456a-8a67-13af04f4ba8d_tgbnzk.jpg" class="girl-image" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">
+                    <div class="login-card shadow p-3">
+                        <p class="event-heading-style"> Event Request</p>
+
+                        <p class="event-para-style">To enter an Event Request, please fill out the following form.</p>
+                        <p class="event-para-style event-heading-style">Your Contant information</p>
+
+                        <form>
+                            <div class="d-flex flex-row justify-content-center ">
+                                <div>
+                                    <label for="FirstName" class="FirstName">First Name</label> <br />
+                                    <input id="firstName" class="end-time" type="text" required /> <br />
+
+                                    <label for="FirstName">Last Name</label> <br />
+                                    <input id="lastName" class="end-time" type="text" required /> <br />
+
+                                    <label for="FirstName">Email address</label> <br />
+                                    <input id="email" class="end-time" type="email" required /> <br />
+
+                                    <label for="FirstName">Phone Number</label> <br />
+                                    <input id="phoneNumber" class="end-time" type="number" required /> <br />
+
+                                    <label for="FirstName">Company</label> <br />
+                                    <textarea name="" id="company" rows="5" cols="20"></textarea>
+                                </div>
+                            </div>
+
+
+                            <p class="event-para-style event-heading-style">Your Event Details</p>
+
+
+                            <div class="d-flex flex-row justify-content-center ">
+                                <div class="form-style">
+                                    <label for="FirstName" class="FirstName">Nature of this Event</label> <br />
+                                    <input id="natural_event" placeholder="Birthday Party" class="end-time" required /> <br />
+
+                                    <label for="FirstName" class="">Event Date</label> <br />
+                                    <input id="event_date" type="date" class="event_date" required /> <br />
+
+                                    <label for="FirstName">Start Time</label> <br />
+                                    <input id="start_time" type="time" class="start-time" required /> <br />
+
+                                    <label for="FirstName">End Time</label> <br />
+                                    <input id="end_time" type="time" class="end-time" required /> <br />
+
+                                    <label for="FirstName">Number of People</label> <br />
+                                    <input id="no_of_people" type="number" class="end-time" required /> <br />
+
+                                    <input type="submit" name="" id="" value="submit" onclick="tests()" />
+                                </div>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //menu section -->
+    <div id="section_menu" class="bg-color">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-color-navbar">
+                        <a class="navbar-brand navbar-style" href="#">GIRL & THE GOAT</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-center navbar-style" onclick="display('sectiondetail')" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+    
+    
+                            </ul>
+                        </div>
+                    </nav>
+                    <h1 class="menu_heading">menu</h1>
+                </div>
+
+                <div class="col-12">
+                    <div class="pt-3 pb-5">
+                        <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690647379/625c2bd7-4329-4bd8-b56a-53bf32258c96_eq8hk0.jpg" class="menu_img" />
+                        <img src="https://res.cloudinary.com/dtzswputm/image/upload/v1690647359/2e9d190d-f2d4-4b2d-9fed-a61de7ad844a_bop53w.jpg" width="30%" />
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <h1 class="menu_heading">explore our menu</h1>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">Food</p>
+                </div>
+
+                <div class="col-12 text-center">
+                    <p class="style_food">BREAD</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food"> olive garlic focaccia</p>
+                    <p class="menu_style_para">whipped feta . cherry cherry relish</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food"> naan & dips</p>
+                    <p class="menu_style_para">tahini tofu . tzatziki</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 text-center pt-3">
+                    <p class="style_food">VEGGIES</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food"> roasted baby summer squash</p>
+                    <p class="menu_style_para">tropea onion-golden beet giardinaire. yuzu kosho. party nuts</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food"> nichols farm grilled corn</p>
+                    <p class="menu_style_para">spiced coconut caramel . cotija . tajin</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">chickpea fritters</p>
+                    <p class="menu_style_para">goat yogurt . green chutney . sev spice crunch</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">sautéed green beans</p>
+                    <p class="menu_style_para">fish sauce vinaigrette . cashews</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 text-center pt-3">
+                    <p class="style_food">FISH</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">raw oysters</p>
+                    <p class="menu_style_para">watermelon radish mignonette . ponzu . horseradish</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">ora king salmon poke</p>
+                    <p class="menu_style_para">strawberry . cherry tomato . avocado . chili crunch</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">shrimp & gotham greens salad</p>
+                    <p class="menu_style_para">avocado . strawberries . quinoa crunch . pickled veggies . limey-herby dressing</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">pan roasted halibut</p>
+                    <p class="menu_style_para">miso-marcona almond butter . spring onion . blueberry nuoc cham</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6 ">
+                    <p class="style_food">wood fired whole branzino</p>
+                    <p class="menu_style_para">thai sweet n' sour . stone fruit . mung bean-pickled mango salad</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 text-center pt-3">
+                    <p class="style_food">MEAT</p>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">crispy spiced pork belly</p>
+                    <p class="menu_style_para">mixed melons . serrano cilantro drizzle . pickled shallot</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">grilled prime skirt steak</p>
+                    <p class="menu_style_para">sichuan peanut sauce . pickled cucumbers . pickled fresnos</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">woodfire lamb ribs</p>
+                    <p class="menu_style_para">blueberry glaze . scallions . sesame</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">grilled chicken skewers</p>
+                    <p class="menu_style_para">cashew butter . savory mushroom oil . crispy sunchokes</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">roasted pig face</p>
+                    <p class="menu_style_para">sunny side egg . tamarind . cilantro . red wine-maple . potato stix</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <p class="style_food">sticky glazed pork shank</p>
+                    <p class="menu_style_para">grilled pineapple & tamarind . papaya-mango salad . hoisin . hot mustard</p>
+                    <hr class="line_style_menu" />
+                </div>
+
+                <div class="col-12 pt-5">
+                    <p class="menu_style_para">A 3% surcharge will be added to your final bill to assist in covering the costs of benefits for our valued team members. If you would like this removed, please let us know. Thank you for your support! Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk for foodborne illness.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>

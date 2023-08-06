@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-color {
+    background-color: #363433;
+}
+
+.bg-color-navbar {
+    background-color: #363433;
+}
+
+.navbar-style {
+    font-family: Serif;
+}
+
+.address-style {
+    color: #ffffff;
+    font-family: Serif;
+    text-align: center;
+}
+
+.address-heading-style {
+    padding-top: 25px;
+}
+
+.address-direction-style {
+    background-color: #c9392e;
+    color: #ffffff;
+    border-width: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact-para-style {
+    text-decoration: underline;
+}
+
+.girl-style {
+    color: #ffffff;
+    font-family: Serif;
+}
+
+.reservation-bg-img {
+
+    width: 90vw;
+    background-size: cover;
+    height: 75vh;
+}
+
+.reservation-heading-style {
+    color: #ffffff;
+    font-family: Serif;
+}
+
+.date-style {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.time-style {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.count-style {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.find-button-style {
+    width: 200px;
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 150px;
+}
+
+.happening-heading-style {
+    color: #ffffff;
+    font-family: Serif;
+    padding: 50px;
+}
+
+.patio-heading-style {
+    color: #ffffff;
+    font-family: Serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.goat-style {
+    text-decoration: underline;
+}
+
+.facebook-img-style {
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg-img-login {
+    background-color: none;
+}
+
+.date-style1 {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.time-style1 {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.count-style1 {
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.find-button-style1 {
+    width: 300px;
+    background-color: black;
+    color: #ffffff;
+    margin-bottom: 150px;
+}
+
+.bg-image-privatedring {
+    background-image: url("https://res.cloudinary.com/dtzswputm/image/upload/v1690400239/90c30831-1372-4941-a482-c9058027ce93_r8qwqj.jpg");
+    width: 100vw;
+    height: 40vh;
+    background-size: cover;
+}
+
+.girl-image {
+    width: 200px;
+
+}
+
+.login-card {
+    background-color: #ffffff;
+}
+
+.event-heading-style {
+    color: #4d94f7;
+    font-size: 20px;
+    font-weight: 20px;
+    padding: 8px;
+}
+
+.event-para-style {
+    padding: 10px;
+}
+
+.start-time {
+    width: 210px;
+    margin-bottom: 20px;
+}
+
+.event-date {
+    width: 210px;
+    margin-bottom: 20px;
+}
+
+.end-time {
+    width: 210px;
+    margin-bottom: 20px;
+}
+
+.menu_heading {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    font-family: Serif;
+}
+
+.menu_img {
+    width: 60%;
+}
+
+.style_food {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Serif;
+}
+
+.menu_style_para {
+    color: #ffffff;
+    font-family: Serif;
+}
+
+.line_style_menu {
+    background-color: #ffffff;
+}
